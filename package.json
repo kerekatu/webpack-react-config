@@ -1,7 +1,19 @@
 {
-  "name": "webpack-project",
+  "name": "ktr-react-app",
   "version": "1.0.0",
-  "description": "project for webpack testing purposes",
+  "description": "Boilerplate Webpack & React Project",
+  "keywords": [
+    "boilerplate",
+    "react",
+    "webpack",
+    "sass"
+  ],
+  "author": {
+    "name": "Konrad Rosa",
+    "email": "info@konradrosa.com",
+    "url": "https://konradrosa.com"
+  },
+  "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.8.4",
@@ -22,8 +34,5 @@
     "serve": "live-server public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
